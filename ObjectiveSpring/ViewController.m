@@ -6,9 +6,14 @@
 //  Copyright (c) 2015 James Tang. All rights reserved.
 //
 
+#import <Spring/Spring-Swift.h>
+
 #import "ViewController.h"
+//#import "ObjectiveSpring-Swift.h"
 
 @interface ViewController ()
+
+//@property (weak, nonatomic) IBOutlet SpringView *springView;
 
 @end
 
@@ -16,12 +21,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+//    SpringView *springView = [[SpringView alloc] initWithFrame:self.view.bounds];
+//    [self.view addSubview:springView];
 }
 
 @end
